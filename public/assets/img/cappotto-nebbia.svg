@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg5" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F5F1E8"/>
+      <stop offset="100%" stop-color="#DFD7CB"/>
+    </radialGradient>
+    <linearGradient id="wool" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C5BEB1"/>
+      <stop offset="50%" stop-color="#B2AA9C"/>
+      <stop offset="100%" stop-color="#9C9486"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg5)"/>
+  <ellipse cx="200" cy="436" rx="90" ry="16" fill="rgba(11,11,11,0.15)" filter="blur(9px)"/>
+  <g transform="translate(0, -10)">
+    <!-- Collar & Notch -->
+    <polygon points="168,140 200,155 232,140 220,205 200,218 180,205" fill="#958D7F"/>
+    <!-- Sleeves & Body -->
+    <path d="M165 142 L130 160 C118 200 116 280 120 340 C132 344 148 335 152 320 L152 425 L248 425 L248 320 C252 335 268 344 280 340 C284 280 282 200 270 160 L235 142 Z" fill="url(#wool)"/>
+    <!-- Center Lapel seam -->
+    <line x1="200" y1="218" x2="200" y2="425" stroke="#7A7366" stroke-width="1.5"/>
+    <!-- Horn buttons -->
+    <circle cx="184" cy="225" r="4.5" fill="#3D372F"/>
+    <circle cx="216" cy="225" r="4.5" fill="#3D372F"/>
+    <circle cx="184" cy="254" r="4.5" fill="#3D372F"/>
+    <circle cx="216" cy="254" r="4.5" fill="#3D372F"/>
+    <!-- Wool Belt -->
+    <rect x="148" y="286" width="104" height="20" fill="#9E9688" stroke="#80786A" stroke-width="1"/>
+    <!-- Gold Buckle -->
+    <rect x="188" y="282" width="24" height="28" rx="3" fill="#DABF79" stroke="#9F823E" stroke-width="1"/>
+    <rect x="194" y="288" width="12" height="16" rx="1.5" fill="#9E9688"/>
+    <!-- Welt pockets -->
+    <rect x="158" y="322" width="28" height="5" fill="#888172"/>
+    <rect x="214" y="322" width="28" height="5" fill="#888172"/>
+  </g>
+</svg>

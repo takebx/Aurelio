@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --nero: #0B0B0B;
+    --nero-2: #141414;
+    --avorio: #F3EFE7;
+    --avorio-2: #EAE4D8;
+    --oro: #B8964F;
+    --oro-light: #E7CB8C;
+    --oro-glow: rgba(184, 150, 79, 0.25);
+    --bordeaux: #5C2A2A;
+    --oliva: #2F3B2E;
+    --muted: #6E6558;
+    --line: rgba(11, 11, 11, 0.12);
+    --line-light: rgba(243, 239, 231, 0.16);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color: var(--nero);
+    background-color: var(--avorio);
+    font-family: 'Jost', sans-serif;
+  }
+
+  /* Centered, ultra-refined scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #EAE4D8;
+    border-left: 1px solid rgba(11, 11, 11, 0.05);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #C4B69E;
+    border-radius: 9999px;
+    border: 2px solid #EAE4D8;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #B8964F;
+  }
+
+  ::selection {
+    background-color: #B8964F;
+    color: #0B0B0B;
+  }
+}
+
+/* Custom Typography Helpers */
+.font-serif-luxury {
+  font-family: 'Bodoni Moda', Didot, 'Bodoni MT', Georgia, serif;
+}
+
+.font-sans-luxury {
+  font-family: 'Jost', system-ui, -apple-system, sans-serif;
+}
+
+/* Floating & Ambient Keyframes */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0.5deg);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+@keyframes rotateStamp {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shimmerGlow {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 7s ease-in-out infinite;
+}
+
+.animate-rotate-slow {
+  animation: rotateStamp 28s linear infinite;
+}
+
+.shimmer-text {
+  background: linear-gradient(90deg, #B8964F 0%, #F5E5C0 50%, #B8964F 100%);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shimmerGlow 6s linear infinite;
+}
+
+/* Subtle grain texture overlay */
+.bg-grain {
+  background-image: radial-gradient(rgba(11, 11, 11, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}

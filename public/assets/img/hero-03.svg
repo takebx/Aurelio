@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgH3" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#F2ECE0"/>
+      <stop offset="100%" stop-color="#DDD5C5"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bgH3)"/>
+  <rect x="45" y="45" width="1110" height="585" fill="none" stroke="rgba(184,150,79,0.3)" stroke-width="1.2"/>
+  <line x1="45" y1="500" x2="1155" y2="500" stroke="rgba(11,11,11,0.12)" stroke-width="1"/>
+  <!-- Plinth & Items -->
+  <g transform="translate(640, 60)">
+    <!-- Halo ring -->
+    <circle cx="200" cy="240" r="180" fill="none" stroke="rgba(184,150,79,0.4)" stroke-width="1.5"/>
+    <!-- Pedestal -->
+    <path d="M120 340 L280 340 L310 490 L90 490 Z" fill="#E8E2D4" stroke="#D3CBB9" stroke-width="1.5"/>
+    <!-- Woven bag on top -->
+    <rect x="135" y="180" width="130" height="135" rx="20" fill="#1C1814"/>
+    <path d="M165 180 C165 125 235 125 235 180" fill="none" stroke="#221D18" stroke-width="14" stroke-linecap="round"/>
+    <rect x="188" y="250" width="24" height="18" rx="3" fill="#D7BE79"/>
+    <!-- Leaning pump -->
+    <path d="M60 410 C50 350 85 340 120 340 L160 410 Z" fill="#6B1D28" transform="rotate(-30 110 375)"/>
+    <!-- Loafer right -->
+    <rect x="260" y="475" width="120" height="32" rx="16" fill="#1A120B"/>
+  </g>
+</svg>

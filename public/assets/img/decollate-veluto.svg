@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg4" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#F6F2EC"/>
+      <stop offset="100%" stop-color="#E3DCD2"/>
+    </radialGradient>
+    <linearGradient id="velvet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6F242F"/>
+      <stop offset="40%" stop-color="#4F161E"/>
+      <stop offset="100%" stop-color="#2D0B11"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg4)"/>
+  <ellipse cx="210" cy="392" rx="110" ry="16" fill="rgba(11,11,11,0.16)" filter="blur(8px)"/>
+  <g transform="translate(10, 15)">
+    <!-- Heel stem -->
+    <rect x="118" y="340" width="16" height="52" rx="3" fill="#24070B"/>
+    <!-- Outsole edge -->
+    <path d="M116 340 L310 340" stroke="#DFD5C6" stroke-width="2"/>
+    <!-- Velvet Upper -->
+    <path d="M120 338 C115 285 150 280 185 280 C218 280 250 300 308 338 Z" fill="url(#velvet)"/>
+    <!-- Collar curve -->
+    <path d="M134 290 C155 282 188 284 205 310" stroke="#1D0509" stroke-width="3" fill="#1F060A"/>
+    <!-- Gold accent sphere at toe -->
+    <circle cx="295" cy="316" r="3.5" fill="#E2C177"/>
+  </g>
+</svg>

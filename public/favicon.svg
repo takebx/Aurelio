@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="58" fill="#0B0B0B"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#B8964F" stroke-width="2.5"/>
+  <text x="60" y="73" text-anchor="middle" font-family="'Bodoni Moda', serif" font-size="38" font-weight="500" fill="#F3EFE7" letter-spacing="2">AR</text>
+</svg>
