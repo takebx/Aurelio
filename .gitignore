@@ -6,3 +6,9 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Mídia temporária do Google AI Studio (artefatos de geração)
+.aistudio/
+
+# Assets importados via bundler — em Vite tudo deve ficar em public/
+src/assets/
