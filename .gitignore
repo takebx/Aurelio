@@ -12,3 +12,6 @@ coverage/
 
 # Assets importados via bundler — em Vite tudo deve ficar em public/
 src/assets/
+
+# Testes e screenshots locais
+.playwright-cli/

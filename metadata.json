@@ -2,5 +2,7 @@
   "name": "Aurelio Roma — Maison Italiana",
   "description": "Maison de alta-costura e artigos em couro italiano desde 1962. Coleção Inverno MMXXVI.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
